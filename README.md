@@ -33,13 +33,19 @@ cnt: length of buffer
 ## ALGORITHM:
 
 1.Star the program.
+
 2.Open a file for O_RDWR for R/W,O_CREATE for creating a file ,O_TRUNC for truncate
 a file.
+
 3.Using getchar(), read the character and stored in the string[] array.
+
 4.The string [] array is write into a file close it.
+
 5.Then the first is opened for read only mode and read the characters and displayed it and
 close the file.
+
 6.Use Fork().
+
 7.Stop the program
 
 ## PROGRAM:
@@ -68,7 +74,7 @@ close(f2);
 fork();
 ```
 ## OUTPUT:
-![Uploading 273098262-768ef793-80f6-4876-9fe1-3500fbaab3c9.png…]()
+![273098262-768ef793-80f6-4876-9fe1-3500fbaab3c9](https://github.com/Snehahv/EX.7-IMPLEMENTATION-OF-SYSTEM-CALLS-READ-WRITE-FORK-OPEN-CLOSE/assets/119104131/7b4f85a5-7ec2-4907-8034-01faeb35ca35)
 
 ## RESULT:
 Thus, open, read, write, close , create , fork() system calls implemented successfully using C
