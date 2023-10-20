@@ -3,6 +3,7 @@
 ## AIM:
 To write a C program using open, read, write, close , create , fork() system calls.
 ## THEORY:
+
 There are 5 basic system calls that Unix provides for file I/O.
 1. Create: Used to Create a new empty file Syntax :int creat(char *filename, mode_t mode)
 filename : name of the file which you want to create
@@ -28,6 +29,7 @@ descripter
 buf: buffer to write data to
 cnt: length of buffer
 *File descriptor is integer that uniquely identifies an open file of the process
+
 ## ALGORITHM:
 1.Star the program.
 2.Open a file for O_RDWR for R/W,O_CREATE for creating a file ,O_TRUNC for truncate
@@ -39,19 +41,6 @@ close the file.
 6.Use Fork().
 7.Stop the program
 
-## PROGRAM:
-cnt: length of buffer
-*File descriptor is integer that uniquely identifies an open file of the process.
-ALGORITHM:
-1.Star the program.
-2.Open a file for O_RDWR for R/W,O_CREATE for creating a file ,O_TRUNC for truncate
-a file.
-3.Using getchar(), read the character and stored in the string[] array.
-4.The string [] array is write into a file close it.
-5.Then the first is opened for read only mode and read the characters and displayed it and
-close the file.
-6.Use Fork().
-7.Stop the program.
 ## PROGRAM:
 ```
 #include<sys/stat.h>
