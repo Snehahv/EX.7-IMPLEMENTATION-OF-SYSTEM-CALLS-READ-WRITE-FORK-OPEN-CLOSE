@@ -31,6 +31,7 @@ cnt: length of buffer
 *File descriptor is integer that uniquely identifies an open file of the process
 
 ## ALGORITHM:
+
 1.Star the program.
 2.Open a file for O_RDWR for R/W,O_CREATE for creating a file ,O_TRUNC for truncate
 a file.
